@@ -1,4 +1,3 @@
-
 # 노드
 class Node:
     def __init__(self, value = None, next = None):
@@ -6,6 +5,7 @@ class Node:
         self.next = next
 
 # 연결리스트
+
 class LinkedList:
     def __init__(self, value):
         self.head = Node(value)
