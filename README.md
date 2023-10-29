@@ -16,3 +16,8 @@
 
 ### Archive
 - 완료가 된 Project, Area, Resource 들을 모아둡니다.
+
+
+
+### Update
+- 2023.10.29 P.A.R.A 형식으로 수정 진행
