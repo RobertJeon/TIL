@@ -30,17 +30,13 @@
 66666
 """
 n = int(input())
-total = []
-for i in range(n):
-    a = list(map(int, input().split()))
-    if a[0] == 1:
-        total.append(a[1])
-    elif a[0] == 2:
-        total.remove(a[1])
-    elif a[0] == 3:
-        print(sum(total))
-    elif a[0] == 4:
-        res = 0
-        for i in range(len(total)):
-            res = res ^ total[i]
-        print(res)
+count = 1
+target = '666'
+ans = 666
+while True:
+    if count == n:
+        break
+    ans += 1
+    if target in str(ans):
+        count += 1
+print(ans)
