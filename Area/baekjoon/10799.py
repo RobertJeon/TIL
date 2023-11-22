@@ -41,6 +41,7 @@ for i in range(len(input_li)):
         if input_li[i-1] == "(":
             stack_li.pop()
             count_stick += len(stack_li)
+            print(count_stick, stack_li)
         else:
             stack_li.pop()
             count_stick += 1
