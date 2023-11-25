@@ -1,0 +1,15 @@
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/bin/Debug/net7.0/Server
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/bin/Debug/net7.0/Server.deps.json
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/bin/Debug/net7.0/Server.runtimeconfig.json
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/bin/Debug/net7.0/Server.dll
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/bin/Debug/net7.0/Server.pdb
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/Server.csproj.AssemblyReference.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/Server.AssemblyInfoInputs.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/Server.AssemblyInfo.cs
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/Server.csproj.CoreCompileInputs.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/Server.dll
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/refint/Server.dll
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/Server.pdb
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/Server.genruntimeconfig.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/Server/obj/Debug/net7.0/ref/Server.dll

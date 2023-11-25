@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="Multi">
+  <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DummyClient/Program.cs">
+    <Files>
+      <File FileName="Server/Program.cs" Line="3" Column="10" />
+      <File FileName="ServerCore/Program.cs" Line="2" Column="35" />
+      <File FileName="DummyClient/Program.cs" Line="2" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Server" expanded="True">
+            <Node name="DummyClient">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multi" Name="Multi">
+      <Items>
+        <StartupItem ItemId="{2BE72A2D-0820-4978-9B46-17F7EEAB8B89}" ItemName="DummyClient" ConfigurationId="Default" />
+        <StartupItem ItemId="{5467819E-C787-4A1B-BE17-4F7E36652EF0}" ItemName="Server" ConfigurationId="Default" />
+        <StartupItem ItemId="{1F78A5CE-60F0-46D2-9D42-8638FAEF0245}" ItemName="ServerCore" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DummyClient PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ServerCore PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
