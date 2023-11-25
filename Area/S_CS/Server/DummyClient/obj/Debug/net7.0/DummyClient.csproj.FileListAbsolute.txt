@@ -1,0 +1,15 @@
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/bin/Debug/net7.0/DummyClient
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/bin/Debug/net7.0/DummyClient.deps.json
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/bin/Debug/net7.0/DummyClient.runtimeconfig.json
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/bin/Debug/net7.0/DummyClient.dll
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/bin/Debug/net7.0/DummyClient.pdb
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/DummyClient.csproj.AssemblyReference.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/DummyClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/DummyClient.AssemblyInfoInputs.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/DummyClient.AssemblyInfo.cs
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/DummyClient.csproj.CoreCompileInputs.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/DummyClient.dll
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/refint/DummyClient.dll
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/DummyClient.pdb
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/DummyClient.genruntimeconfig.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Area/S_CS/Server/DummyClient/obj/Debug/net7.0/ref/DummyClient.dll
