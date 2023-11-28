@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        legend {
+            color:blueviolet; font-weight: bold; font-size: 20px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        상품 주문서
+    </h1>
+    <form method="get" action="test.php">
+    <fieldset>
+        <legend>개인 정보</legend>
+        <h3>이름 <input type="text" value="여백없이 입력"></h3> 
+        <h3>연락처 <input type="tel" value="연락가능한 번호"></h3> 
+    </fieldset>
+    <fieldset>
+        <legend>배송지 정보</legend>
+        <h3>주소 <input type="text" size=50></h3> 
+        <h3>전화번호 <input type="tel"></h3> 
+        <h3>메모 <textarea cols="50" rows="3"></textarea></h3> 
+    </fieldset>
+    <fieldset>
+        <legend>주문 정보</legend>
+        <p><input id="m1" type="checkbox" name="food" value="anti">과테말라 안티구아 (100g)<input type="number" min="0" name="anti_count" size="2" value="0">개</p>
+        <p><input id="m1" type="checkbox" name="food" value="anti">인도네시아 만델링 (100g)<input type="number" min="0" name="anti_count" size="2" value="0">개</p>
+        <p><input id="m1" type="checkbox" name="food" value="anti">탐라는도다(블렌딩) (100g)<input type="number" min="0" name="anti_count" size="2" value="0">개</p>
+    </fieldset>
+        <p style="text-align: center">
+            <input type="submit" value="주문하기">
+            <input type="submit" value="다시 작성">
+        </p>
+    </form>
+</body>
+</html>
