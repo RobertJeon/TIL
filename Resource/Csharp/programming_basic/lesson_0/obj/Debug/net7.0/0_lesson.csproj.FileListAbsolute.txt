@@ -1,0 +1,15 @@
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/bin/Debug/net7.0/0_lesson
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/bin/Debug/net7.0/0_lesson.deps.json
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/bin/Debug/net7.0/0_lesson.runtimeconfig.json
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/bin/Debug/net7.0/0_lesson.dll
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/bin/Debug/net7.0/0_lesson.pdb
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/0_lesson.csproj.AssemblyReference.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/0_lesson.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/0_lesson.AssemblyInfoInputs.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/0_lesson.AssemblyInfo.cs
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/0_lesson.csproj.CoreCompileInputs.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/0_lesson.dll
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/refint/0_lesson.dll
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/0_lesson.pdb
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/0_lesson.genruntimeconfig.cache
+/Users/jeonsang-eon/Desktop/WorkSpace/TIL/Resource/Csharp/programming_basic/0_lesson/obj/Debug/net7.0/ref/0_lesson.dll
