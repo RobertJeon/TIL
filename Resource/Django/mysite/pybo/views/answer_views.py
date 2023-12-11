@@ -2,17 +2,12 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect, resolve_url
 from django.utils import timezone
-
 from ..forms import AnswerForm
 from ..models import Question, Answer
 
 @login_required(login_url='common:login')
 def answer_create(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
-    # question.answer_set.create(content=request.POST.get('content'), create_date=timezone.now())
-    # answer = Answer(question=question, content=request.POST.get('content'), create_date=timezone.now())
-    # answer.save()
-    # return redirect('pybo:detail', question_id=question.id)
     if request.method == "POST":
         form = AnswerForm(request.POST)
         if form.is_valid():
@@ -24,7 +19,6 @@ def answer_create(request, question_id):
             return redirect('{}#answer_{}'.format(
                 resolve_url('pybo:detail', question_id=question.id), answer.id))
     else:
-        # return HttpResponseNotAllowed('Only POST is possible.')
         form = AnswerForm()
     context = {'question': question, 'form': form}
     return render(request, 'pybo/question_detail.html', context)

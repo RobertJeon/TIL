@@ -9,8 +9,6 @@ from ..models import Question
 
 @login_required(login_url='common:login')
 def question_create(request):
-    # form = QuestionForm()
-    # return render(request, 'pybo/question_form.html', {'form':form})
     if request.method == 'POST':
         form = QuestionForm(request.POST)
         if form.is_valid():                         # 폼이 유효하다면
