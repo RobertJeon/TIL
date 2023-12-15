@@ -21,3 +21,6 @@
 
 ### Update
 - 2023.10.29 P.A.R.A 형식으로 수정 진행
+
+### Update
+- 2023.12.15 linux, Django add
