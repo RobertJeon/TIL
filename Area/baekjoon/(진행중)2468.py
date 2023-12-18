@@ -22,28 +22,73 @@
 """
 
 # 틀린코드
-n = int(input())
-matrix_ = []
+# n = int(input())
+# matrix_ = []
 
-for i in range(n):
-    input_li = list(map(int, input().split()))
-    matrix_.append(input_li)
+# for i in range(n):
+#     input_li = list(map(int, input().split()))
+#     matrix_.append(input_li)
 
-def dfs_(x_, y_, matrix,n):
-    if 0 <= x_ < len(matrix) and 0 <= y_ < len(matrix[0]) and matrix[x_][y_] > n:
-        matrix[x_][y_] = n
-        dfs_(x_+1, y_, matrix,n)
-        dfs_(x_, y_+1, matrix,n)
-        dfs_(x_-1, y_, matrix,n)
-        dfs_(x_, y_-1, matrix,n)
-    return matrix
+# def dfs_(x_, y_, matrix,n):
+#     if 0 <= x_ < len(matrix) and 0 <= y_ < len(matrix[0]) and matrix[x_][y_] > n:
+#         matrix[x_][y_] = n
+#         dfs_(x_+1, y_, matrix,n)
+#         dfs_(x_, y_+1, matrix,n)
+#         dfs_(x_-1, y_, matrix,n)
+#         dfs_(x_, y_-1, matrix,n)
+#     return matrix
 
-count_ = 0
-for m_x in range(len(matrix_)):
-    for m_y in range(len(matrix_[0])):
-        if matrix_[m_x][m_y] > n:
-            count_ += 1
-            dfs_(m_x, m_y, matrix_,n)
-print(count_)
+# count_ = 0
+# for m_x in range(len(matrix_)):
+#     for m_y in range(len(matrix_[0])):
+#         if matrix_[m_x][m_y] > n:
+#             count_ += 1
+#             dfs_(m_x, m_y, matrix_,n)
+# print(count_)
 
 # 아직 문제 이해를 못한거같다. 
+
+# 참고 
+# https://velog.io/@phw1996/%EB%B0%B1%EC%A4%80-2468%EB%B2%88-%EC%95%88%EC%A0%84-%EC%98%81%EC%97%AD-%ED%8C%8C%EC%9D%B4%EC%8D%AC
+
+import sys
+sys.setrecursionlimit(100000)
+
+# 좌 우 상 하
+dx = [-1, 0, 1, 0]
+dy = [0, 1, 0, -1]
+
+# x, y 지점을 기준으로 주변을 탐색하는 재귀 함수
+def dfs_(x,y,h):
+    # x, y 좌표를 기준으로 좌 우 상 하 좌표를 nx 반복문으로 가져옴
+    for m in range(4):
+        nx = x + dx[m]
+        ny = y + dy[m]
+        # 자신이 건너갈 nx, ny 좌표에 대한 유효성 검증
+        if (0 <= nx < N) and (0 <= ny < N) and not sink_table[nx][ny] and water_board[nx][ny] > h:
+            # 유효성이 검증된 좌표에 한해서 재귀함수를 호출
+            sink_table[nx][ny] = True
+            dfs_(nx,ny,h)
+# 입력 받기
+N = int(sys.stdin.readline())
+water_board = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
+
+# 결과를 저장할 변수 초기화
+ans = 1
+
+# 물의 높이에 따라 안전 영역의 개수를 탐색
+for k in range(max(map(max, water_board))):
+    # 각 물의 높이마다 섬을 판별하기 위한 테이블 초기화
+    sink_table = [[False for i in range(N)]for j in range(N)]
+    count = 0
+    # 모든 좌표에 대해 물의 높이가 K 이상이고, 해당 좌표가 아직 방문되지 않았다면 섬으로 판별
+    for i in range(N):
+        for j in range(N):
+            if water_board[i][j] > k and not sink_table[i][j]:
+                count += 1
+                sink_table[i][j]
+                dfs_(i,j,k) # 해당 좌표에서 시작하여 물의 높이 K 이상인 지점을 재귀적으로 방문
+    ans = max(ans, count)   # 물의 높이가 k 일 때의 섬의 개수를 저장
+
+# 최종적으로 가장 많은 섬이 나오는 경우의 섬의 개수 출력
+print(ans)
