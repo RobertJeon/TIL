@@ -19,6 +19,7 @@
 1 4 5 3 2
 """
 
+"""
 # 정답은 나오지만 틀렸습니다가 나오는 코드 반례 확인 필요.
 from collections import deque
 import sys
@@ -38,17 +39,16 @@ for i in range(n):
     idx.popleft()
     de.rotate(tmp)
     idx.rotate(tmp)
-    print("de", de)
-    print("idx", idx)
 
 for j in range(len(result)):
     if j == len(result):
         print(result[j])
     else:
         print(result[j], end=" ")
+"""
 
 """
-참고 : https://velog.io/@highcho/Algorithm-baekjoon-2346
+# 참고 : https://velog.io/@highcho/Algorithm-baekjoon-2346
 import sys
 from collections import deque
 
@@ -63,3 +63,63 @@ for i in range(n):
 	else:
 		deq.rotate(-p[1]) # 시계 방향으로 회전
 """
+
+# from collections import deque
+# import sys
+
+# n = int(input())
+# de = deque(map(int, input().split()))
+# idx = deque(i+1 for i in range(n))
+
+# print("de", de)
+# print("idx", idx)
+
+
+# for i in range(n):
+#     tmp = de.popleft()
+#     tmp_idx = idx.popleft()
+#     print(tmp_idx, end = ' ')
+#     if tmp > 0:
+#         tmp -= 1
+#     de.rotate(tmp)
+#     idx.rotate(tmp)
+#     print("for de", de)
+#     print("for idx", idx)
+
+"""
+from collections import deque
+import sys
+
+n = int(sys.stdin.readline())
+de = deque(map(int, sys.stdin.readline().split()))
+idx = deque(i+1 for i in range(n))
+
+for i in range(n):
+    tmp = de.popleft()
+    tmp_idx = idx.popleft()
+    print(tmp_idx, end = ' ')
+    if tmp > 0:
+        tmp -= 1
+    de.rotate(tmp)
+    idx.rotate(tmp)
+"""
+
+import sys
+from collections import deque
+
+n = int(sys.stdin.readline())
+
+deq = deque(enumerate(map(int, sys.stdin.readline().split()), start=1))
+
+for _ in range(n):
+    p = deq.popleft()
+    print(p[0], end = ' ')
+    if len(deq) != 0:
+        if p[1] > 0:
+            for i in range(p[1]-1):
+                tmp = deq.popleft()
+                deq.append(tmp)
+        else:
+            for j in range(-(p[1])):
+                tmp = deq.pop()
+                deq.appendleft(tmp)
