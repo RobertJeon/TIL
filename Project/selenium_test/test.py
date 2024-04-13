@@ -24,8 +24,6 @@ search_box = driver.find_element(By.CLASS_NAME, 'gLFyf')
 # 검색어 창을 찾아 search 변수에 저장 (By.XPATH 방식)
 # search_box = driver.find_element(By.XPATH, '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/textarea').click()
 
-from selenium.webdriver.common.keys import Keys
-
 search_box.send_keys('파이썬')
 search_box.send_keys(Keys.RETURN)
 time.sleep(10)
