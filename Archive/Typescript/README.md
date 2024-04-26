@@ -1,0 +1,1 @@
+https://typescript-kr.github.io/pages/tutorials/typescript-in-5-minutes.html

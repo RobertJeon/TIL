@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "upper-case": "^3.0.0"
+    "formidable": "^3.5.1",
+    "upper-case": "^3.0.0",
+    "uppercase": "^2.0.0-beta.23"
   }
 }
